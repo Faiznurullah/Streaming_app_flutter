@@ -19,9 +19,9 @@ class LivePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: ZegoUIKitPrebuiltLiveStreaming(
-        appID: 1704583411,
+        appID: int,
         appSign:
-            '7fbb52f27df81b741d49e25afd5660fd9e82ac4e9ecf2aa89e07c2bb68641a73',
+            '',
         userID: localUserID,
         userName: 'user_$localUserID',
         liveID: liveID,
